@@ -1,0 +1,37 @@
+body {
+	font-family: Sans-Serif;
+	margin: 0;
+	padding: 0;
+}
+body > * {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body > * > * {
+	margin: 0;
+	padding: 0;
+}
+
+.nife-header-container {
+	background-color: rgba(104,120,128,0.2);
+}
+
+.nife-header {
+	display: table-row;
+	width: 100%;
+	cell-spacing: 20px;
+}
+.nife-header > * {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 10px 5px;
+	padding: 0;
+}
