@@ -38,6 +38,20 @@ programming conventions and generally stays out of your way.</p>
 <p>Nife doesn't force you to follow any specific design pattern, but
 it's designed to help you build systems with an MVC-ish architecture.</p>
 
+<h4>What differentiates it from other MVC frameworks?</h4>
+
+<p>Nife doesn't shove its own way of doing things down your throat and
+doesn't bloat your project with useless code.  For example, Nife
+doesn't include its own router/dispatcher mechanism because I've never
+seen a PHP routing library that was anything more than a verbose,
+inflexible pseudo-DSL to write if/else chains (and possibly a reverse
+lookup mechanism which nobody consistently uses, anyway).  With Nife,
+you just write your if/else chain.</p>
+
+<p>Nife is a 'framework' in a truer sense of the word.  It provides
+conventions to follow and a few, well-defined interfaces and utility
+classes to help you follow them.</p>
+
 <h4>Is it compatible with <em>X</em>?</h4>
 
 <p>Yes.  Nife is a <em>plain old object-oriented PHP library</em>,
